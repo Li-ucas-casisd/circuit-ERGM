@@ -46,5 +46,8 @@ ergm_project/
 - For large networks, a computer with at least 16GB RAM is recommended.
 - Goodness-of-fit plots need manual saving or additional code for automation.
 
-## 7. Citation
-Chao Liu, Keyi Lu, Longfei Li*.Adapting under pressure: Resilience characteristics and evolution dynamics of innovation networks in China’s integrated circuit industry. undergoing review in technology analysis & strategic management
+## 7. Dataset Availability
+All raw data in the ERGM_Data/ directory can be downloaded from FigShare at: https://doi.org/10.6084/m9.figshare.29329997
+
+## 8. Citation
+Chao Liu, Keyi Lu, Longfei Li*.Adapting under pressure: Resilience characteristics and evolution dynamics of innovation networks in China’s integrated circuit industry. undergoing review in technology analysis & strategic managemen
