@@ -6,7 +6,7 @@ This project uses Exponential Random Graph Models (ERGM) to analyze network stru
 ## 2. Directory Structure
 ergm_project/
 ├── code/ # Code directory
-│ └── ergm_analysis.R # Main analysis script
+│ └── Circuit-ERGM.R # Main analysis script
 ├── ERGM_Data/ # Data directory
 │ ├── Node_Attributes.xlsx # Node time and patent attributes
 │ ├── Network_Data.xlsx # Network matrices for three periods
@@ -23,10 +23,6 @@ ergm_project/
 │ ├── Spatial_Proximity.xlsx
 │ └── Organizational_Proximity.xlsx
 └── results/ # Output directory
-├── ergm_models.RData # Saved model objects
-├── gof_plots/ # Goodness-of-fit plots
-└── model_tables.txt # Model comparison tables
-
 
 ## 3. Runtime Environment
 - **R Version**: 4.4.1 or higher
@@ -38,12 +34,11 @@ ergm_project/
   - Basic model (node covariates only)
   - Model with edge covariates (proximity effects)
   - Model with high-order network terms (gwdegree, gwesp, gwdsp)
-- **MCMC Parameters**: Sets 20,000 samples with burn-in, 16-core parallel computation for efficiency.
 - **Output**: Generates goodness-of-fit plots, model comparison tables, and saves model objects.
 
 ## 5. Execution Steps
 1. Place `ergm_analysis.R` in the `code/` directory.
-2. Ensure the `ERGM_Data_0321/` directory is parallel to the code directory.
+2. Ensure the `ERGM_Data/` directory is parallel to the code directory.
 3. Run the script in R; outputs will be saved to the `results/` directory.
 
 ## 6. Notes
@@ -52,5 +47,4 @@ ergm_project/
 - Goodness-of-fit plots need manual saving or additional code for automation.
 
 ## 7. Citation
-[Citation information would go here]
 Chao Liu, Keyi Lu, Longfei Li*.Adapting under pressure: Resilience characteristics and evolution dynamics of innovation networks in China’s integrated circuit industry. undergoing review in technology analysis & strategic management
