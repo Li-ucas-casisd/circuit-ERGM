@@ -1,4 +1,4 @@
-# ERGM Model Analysis Project in evolution dynamics of innovation networks in China’s integrated circuit industry
+# ERGM Analysis of the Evolutionary Dynamics of Innovation Networks in China's Integrated Circuit Industry
 
 ## 1. Project Overview
 This project uses Exponential Random Graph Models (ERGM) to analyze network structures across three periods, investigating how geographic, spatial, and organizational proximity influence network tie formation. The code includes data loading, model fitting, goodness-of-fit testing, and result output.
