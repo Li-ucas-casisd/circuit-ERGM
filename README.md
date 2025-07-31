@@ -47,7 +47,8 @@ ergm_project/
 - Goodness-of-fit plots need manual saving or additional code for automation.
 
 ## 7. Dataset Availability
-All raw data in the ERGM_Data/ directory can be downloaded from FigShare at: https://doi.org/10.6084/m9.figshare.29329997
+Since access to the Incopat database requires authorization from the database, users with data needs may download the data directly from the database. Other data requests can be made to the corresponding author.
 
 ## 8. Citation
-This paper is undergoing review in technology analysis & strategic management. The specific citation methods will be made public after the peer review is completed.
+Chao Liu, Longfei Li* & Keyi Lu (30 Jul 2025): Adapting under pressure: resilience characteristics and evolution dynamics of innovation networks in China’s integrated circuit industry, Technology Analysis & Strategic Management, DOI:
+10.1080/09537325.2025.2539474
